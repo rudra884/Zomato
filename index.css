@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    width: 100%;
+}
+
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12px;
+    background: rgb(100, 154, 188);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.logo{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3 ease;
+}
+
+.logo:hover{
+    color: aqua;
+    text-shadow: 0 0 25px blue,
+                  0 0 50px blue;
+    transform: scale(1.1);
+}
+
+.navbar a{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+}
+.navbar a:hover{
+    color: blue;
+}
+
+.contact{
+    font-size: 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.contact:hover{
+    background-color: aqua;
+}
+
+.home{
+    width: 100%;
+    background: lightblue;
+    display: flex;
+    padding: 30px 12% 0 ;
+}
+
+.home-content{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 120px;
+    line-height: 1.5;
+    color: white;
+}
+.home-content p{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img-box img{
+    border-radius: 40%;
+    width: 550px;
+    height: 600px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 25px blue,
+                0 0 50px blue;
+}
+
+.homePage{
+    margin-top: 30px;
+    display: flex;
+}
